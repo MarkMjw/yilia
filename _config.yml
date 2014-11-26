@@ -1,11 +1,10 @@
 # Header
 menu:
   主页: /
-  所有文章: /archives
-  # 分类: /categories
+  文章: /archives
   项目: /project
-  关于我: /about
-  # 个人简历: /resume
+  关于: /about
+  # 简历: /resume
 
 # SubNav
 subnav:
@@ -28,7 +27,7 @@ fancybox: true
 favicon: /favicon.png
 
 #你的头像
-avatar: "http://s.gravatar.com/avatar/556826198e4e0e1e1566f502f5fcc896?s=400"
+avatar: "http://gravatar.com/avatar/556826198e4e0e1e1566f502f5fcc896?s=200"
 #是否开启分享
 share: true
 #是否开启多说评论，填写你在多说申请的项目名称
