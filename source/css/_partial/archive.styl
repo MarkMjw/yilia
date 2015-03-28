@@ -9,7 +9,6 @@
     line-height: 35px;
     width: 200px;
     position: absolute;
-    top: 13px;
     padding-top: 15px;
     font-size: 1.8em;
   }
@@ -22,6 +21,9 @@
 
 .archives {
   position:relative;
+  .article-info{
+    border: none;
+  }
   .archive-article {
     margin-left:200px;
     padding:20px 0;
@@ -64,6 +66,9 @@
 }
 
 .archive-article-inner{
+  .archive-article-header{
+    position: relative;
+  }
   .article-meta{
     position: relative;
     float: right;
@@ -72,6 +77,11 @@
     background: none;
     text-align: right;
     width: auto;
+    .article-date{
+      time{
+        color: #aaa;
+      }
+    }
     .archive-article-date, .article-tag-list{
       margin-right: 30px;
       display: -moz-inline-stack;
@@ -85,13 +95,14 @@
      cursor: default;
      font-size: 12px;
      margin-bottom: 5px;
+     margin-top: -10px;
      time{
       &:before {
         content: "\f073";
-        color: #555;
+        color: #999;
         position: relative;
         margin-right: 10px;
-        font: 14px FontAwesome;
+        font: 16px FontAwesome;
       }
      }
     }
